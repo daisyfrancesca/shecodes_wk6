@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="src/index.js" />
+    <title>Weather App by DFS</title>
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <h1>The Current Weather in Mooresville, NC</h1>
+    <p>
+        <br>
+        <br>
+        <span class="current" id="currentTemp">80°F 🌤</span>
+        <span class="units">
+            <sup>
+                <a href="#" id="currentCel"> °C </a> |
+                <a href="#" id="currentFar">°F </a>
+            </sup>
+            <br />
+            <h2> The Current Time is: </h2>
+            <br />
+            <form id="city-form">
+                <input type="city" id="city-input" placeholder="Enter City Here">
+                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+            </form>
+
+            <br />
+            <h3>Upcoming in Mooresville, NC</h3>
+            <br />
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card">
+                            <div class="card-body">
+                                Monday <br>
+                                🌧 70°F
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card">
+                            <div class="card-body">
+                                Tuesday<br>
+                                ☀️ 75°F
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card">
+                            <div class="card-body">
+                                Wednesday<br>
+                                🌥 82°
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card">
+                            <div class="card-body">
+                                Thursday<br>
+                                🌤 85°
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card">
+                            <div class="card-body">
+                                Friday<br>
+                                ⛈ 85°
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <hr>
+            <p><span class="foot">Created by Daisy Simpson aka @daisyfrancesca</span></p>
+    </p>
+</body>
+
+</html>

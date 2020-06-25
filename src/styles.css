@@ -1,0 +1,66 @@
+body {
+  background-image: linear-gradient(
+    to top,
+    #fcc5e4 0%,
+    #fda34b 15%,
+    #ff7882 35%,
+    #c8699e 52%,
+    #7046aa 71%,
+    #0c1db8 87%,
+    #020f75 100%
+  );
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+}
+h1 {
+  font-family: "Cabin", sans-serif;
+  font-size: 40px;
+  font-display: bolder;
+  margin: 0 auto;
+  padding: 50px 0px 0px 0px;
+  text-align: center;
+  color: #ffffff;
+}
+h2 {
+  color: #ffffff;
+  font-size: 20px;
+}
+.units {
+  font-size: 25px;
+  color: #ffffff;
+}
+.current {
+  font-size: 40px;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Cabin", sans-serif;
+}
+.form-control {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+}
+.submit {
+  position: relative;
+}
+h3 {
+  font-size: 30px;
+  font-family: "Cabin", sans-serif;
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+  font-family: "Cabin", sans-serif;
+}
+.card {
+  opacity: 0.5;
+  font-size: 23px;
+  font-display: bolder;
+}
+.foot {
+  border: 10px;
+  padding: 50px;
+  font-family: "Cabin", sans-serif;
+}
